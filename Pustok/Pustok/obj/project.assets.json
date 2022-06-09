@@ -8475,19 +8475,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lamia\\.nuget\\packages\\": {}
+    "C:\\Users\\bduguest\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lamia\\Desktop\\AspTasks\\02.06\\Pustok\\Pustok\\Pustok.csproj",
+      "projectUniqueName": "C:\\Users\\bduguest\\Desktop\\Pustok_AdminPanel\\Pustok\\Pustok\\Pustok.csproj",
       "projectName": "Pustok",
-      "projectPath": "C:\\Users\\Lamia\\Desktop\\AspTasks\\02.06\\Pustok\\Pustok\\Pustok.csproj",
-      "packagesPath": "C:\\Users\\Lamia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lamia\\Desktop\\AspTasks\\02.06\\Pustok\\Pustok\\obj\\",
+      "projectPath": "C:\\Users\\bduguest\\Desktop\\Pustok_AdminPanel\\Pustok\\Pustok\\Pustok.csproj",
+      "packagesPath": "C:\\Users\\bduguest\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bduguest\\Desktop\\Pustok_AdminPanel\\Pustok\\Pustok\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lamia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bduguest\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8550,7 +8550,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

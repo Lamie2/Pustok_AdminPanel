@@ -24,7 +24,6 @@ namespace Pustok.Models
         public int PageSize { get; set; }
         public bool IsAvailable { get; set; }
         public byte Rate { get; set; }
-
         public Genre Genre { get; set; }
         public Author Author { get; set; }
         public List<BookImage> BookImages { get; set; }

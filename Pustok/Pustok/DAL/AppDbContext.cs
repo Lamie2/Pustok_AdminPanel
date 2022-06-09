@@ -13,8 +13,10 @@ namespace Pustok.DAL
         {
 
         }
+        public DbSet<Author> Authors { get; set; }
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<Feature> Features { get; set; }
-        public DbSet<Author> Authors { get; set; }
+        public DbSet<Genre> Genres { get; set; }
+  
     }
 }

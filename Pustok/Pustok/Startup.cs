@@ -20,7 +20,7 @@ namespace Pustok
             services.AddControllersWithViews();
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer("Server=DESKTOP-90QS8RP;Database=Pustok;Trusted_Connection=TRUE");
+                options.UseSqlServer("Server=CAPR10;Database=Pustok;Trusted_Connection=TRUE");
             });
         }
 

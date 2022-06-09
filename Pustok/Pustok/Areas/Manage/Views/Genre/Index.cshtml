@@ -1,40 +1,35 @@
-﻿@model List<Author>
+﻿@model List<Genre>
 @{
     ViewData["Title"] = "Index";
-    int count = 0;
+    var count = 0;
 }
+
+<h1>Index</h1>
 
 <div class="container">
     <div class="row">
         <div class="col-md-10 mx-auto">
-            <a asp-action="create" class="btn btn-primary">Create</a>
+            <a class="btn btn-primary">Create</a>
         </div>
         <div class="col-md-10 mx-auto">
             <table class="table">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">FullName</th>
-                        <th scope="col">BirthDate</th>
-                        <th scope="col">Books count</th>
-                        <th scope="col">Actions</th>
-
-
-                    </tr>
+                        <th scope="col">Name</th>
+                                </tr>
                 </thead>
                 <tbody>
-                    @foreach (var auth in Model)
+                    @foreach (var genre in Model)
                     {
                         count++;
                         <tr>
                             <th scope="row">@count</th>
-                            <td>@auth.FullName</td>
-                            <td>@auth.BirthDate.ToString("dd-MM-yyyy")</td>
-                            <td>@auth.Books.Count()</td>
+                            <td>@genre.Name</td>
                             <td>
                                 <a asp-action="edit" class="btn btn-warning">Edit</a>
                                 <a asp-action="delete" class="btn btn-danger">Delete</a>
-                                
+                                a
                             </td>
                         </tr>
                     }
@@ -44,4 +39,3 @@
         </div>
     </div>
 </div>
-
